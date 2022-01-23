@@ -44,43 +44,6 @@ const listOfMaps = [
     img: "maps/fracture.webp",
   },
 ];
-// const listOfMaps = [
-//   {
-//     id: 1,
-//     name: "Haven",
-//     img: "maps/haven.png",
-//   },
-//   {
-//     id: 2,
-//     name: "Bind",
-//     img: "maps/bind.png",
-//   },
-//   {
-//     id: 3,
-//     name: "Split",
-//     img: "maps/split.png",
-//   },
-//   {
-//     id: 4,
-//     name: "Ascent",
-//     img: "maps/ascent.png",
-//   },
-//   {
-//     id: 5,
-//     name: "Icebox",
-//     img: "maps/icebox.png",
-//   },
-//   {
-//     id: 6,
-//     name: "Breeze",
-//     img: "maps/breeze.png",
-//   },
-//   {
-//     id: 7,
-//     name: "Fracture",
-//     img: "maps/fracture.png",
-//   },
-// ];
 
 client.on("ready", () => {
   console.log("Bot ready to randomize");
