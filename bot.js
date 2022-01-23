@@ -2,7 +2,10 @@ require("dotenv").config(); //help parse the env variable in process.env.BOT_TOK
 
 const { channel } = require("diagnostics_channel");
 const Discord = require("discord.js"); //connect/communicate with discord
-const client = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] });
+const client = new Discord.Client({
+  intents: ["GUILDS", "GUILD_MESSAGES"],
+  partials: ["CHANNEL"],
+});
 
 const listOfMaps = [
   {
